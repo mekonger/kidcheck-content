@@ -36,6 +36,7 @@ lịch chăm sóc của một quốc gia, viết bằng một ngôn ngữ.
 kidcheck-content/
 ├── README.md
 ├── LICENSE
+├── privacy.html           # chính sách quyền riêng tư (GitHub Pages)
 └── vi-VN/
     └── checklist.json     # Việt Nam, tiếng Việt
 ```
@@ -69,6 +70,12 @@ trong kho riêng `childcare-checklist` (thư mục `content/`).
 
 Muốn quay lại bản trước: revert commit đó, rồi tăng `version` thêm một lần để
 ứng dụng nhận bản đã sửa.
+
+### Chính sách quyền riêng tư
+
+[`privacy.html`](privacy.html) là chính sách quyền riêng tư của ứng dụng
+(tiếng Việt và tiếng Anh), công khai tại
+https://mekonger.github.io/kidcheck-content/privacy.html (GitHub Pages).
 
 ### Lưu ý, nguồn và giấy phép
 
@@ -115,6 +122,7 @@ schedule, written in one language.
 kidcheck-content/
 ├── README.md
 ├── LICENSE
+├── privacy.html           # privacy policy (GitHub Pages)
 └── vi-VN/
     └── checklist.json     # Vietnam, Vietnamese
 ```
@@ -188,6 +196,12 @@ and converter in the private `childcare-checklist` repository (`content/`).
 
 To roll back: revert the commit, then bump `version` once more so the app
 picks up the corrected file.
+
+### Privacy policy
+
+[`privacy.html`](privacy.html) is the app's privacy policy (Vietnamese and
+English), published at
+https://mekonger.github.io/kidcheck-content/privacy.html (GitHub Pages).
 
 ### Disclaimer, sources and license
 
