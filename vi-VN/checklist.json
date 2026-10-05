@@ -1,0 +1,3110 @@
+{
+  "country": "VN",
+  "version": "2026-10-04.1",
+  "disclaimerVi": "Ứng dụng chỉ nhắc lịch, không thay thế tư vấn y tế. Hãy hỏi bác sĩ nhi của con bạn.",
+  "items": [
+    {
+      "id": "VN-001",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Viêm gan B sơ sinh",
+      "nameEn": "Hepatitis B vaccine – birth dose",
+      "ageFromMonths": 0,
+      "ageToMonths": 0,
+      "ageLabelVi": "Trong vòng 24 giờ sau sinh",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          0
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "1 liều, tiêm bắp (đùi), tại cơ sở sinh trong vòng 24 giờ sau sinh.",
+      "benefitsVi": "Ngăn lây truyền virus viêm gan B từ mẹ sang con; là mũi đầu tiên trong 4 mũi viêm gan B của lịch tiêm chủng quốc gia.",
+      "riskOveruseVi": "Tiêm thêm liều không gây hại nhưng không có thêm lợi ích; hãy theo đúng lịch và giữ sổ tiêm chủng.",
+      "riskMissedVi": "Trẻ nhiễm ngay khi sinh có nguy cơ rất cao bị viêm gan B mạn tính, về sau dẫn đến xơ gan và ung thư gan.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://luatvietnam.vn/y-te/thong-tu-13-2026-tt-byt-quy-dinh-chi-tiet-ve-hoat-dong-tiem-chung-tu-bo-y-te-434914-d1.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-002",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Huyết thanh kháng viêm gan B",
+      "nameEn": "Hepatitis B immunoglobulin (HBIG)",
+      "ageFromMonths": 0,
+      "ageToMonths": 0,
+      "ageLabelVi": "Trong vòng 12–24 giờ sau sinh, chỉ khi mẹ có HBsAg dương tính",
+      "requirement": "conditional",
+      "requirementVi": "Tùy trường hợp – hỏi bác sĩ",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          0
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Bệnh viện tiêm cùng lúc với mũi viêm gan B sơ sinh, ở vị trí tiêm khác. Chỉ tiêm khi mẹ xét nghiệm dương tính với viêm gan B.",
+      "benefitsVi": "Bổ sung kháng thể ngay lập tức để giảm nguy cơ lây từ mẹ bị nhiễm.",
+      "riskOveruseVi": "Không chỉ định khi mẹ có HBsAg âm tính.",
+      "riskMissedVi": "Tăng nguy cơ lây viêm gan B từ mẹ bị nhiễm.",
+      "citations": [
+        "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-003",
+      "type": "Drug",
+      "typeVi": "Thuốc",
+      "nameVi": "Tiêm vitamin K1 sơ sinh",
+      "nameEn": "Vitamin K1 injection",
+      "ageFromMonths": 0,
+      "ageToMonths": 0,
+      "ageLabelVi": "Ngay sau sinh",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (chăm sóc sơ sinh, Bộ Y tế)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          0
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "1 mg tiêm bắp cho trẻ đủ tháng; liều thấp hơn cho trẻ rất nhẹ cân theo hướng dẫn của Bộ Y tế. Cách thay thế bằng đường uống: 3 liều (lúc sinh, ngày thứ 7, 1 tháng).",
+      "benefitsVi": "Phòng xuất huyết do thiếu vitamin K, bao gồm xuất huyết não – màng não ở trẻ sơ sinh.",
+      "riskOveruseVi": "Nhân viên y tế tiêm một lần; liều do bệnh viện kiểm soát.",
+      "riskMissedVi": "Xuất huyết do thiếu vitamin K có thể gây xuất huyết não; tỷ lệ tử vong được ghi nhận 25–40% và 40–50% để lại di chứng thần kinh lâu dài.",
+      "citations": [
+        "https://dantri.com.vn/suc-khoe/bo-y-te-huong-dan-tiem-vitamin-k-cho-tre-so-sinh-phong-xuat-huyet-nao-20171213062409078.htm",
+        "https://bvhungvuong.vn/danh-cho-benh-nhan/tiem-vitamin-k1-de-phong-chong-xuat-huyet-naomang-nao-tre-so-sinh"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-004",
+      "type": "Screening",
+      "typeVi": "Sàng lọc",
+      "nameVi": "Sàng lọc sơ sinh lấy máu gót chân",
+      "nameEn": "Newborn blood screening (heel prick)",
+      "ageFromMonths": 0,
+      "ageToMonths": 0,
+      "ageLabelVi": "48–72 giờ sau sinh",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          0
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Lấy vài giọt máu ở gót chân thấm lên giấy lọc, 48–72 giờ sau sinh. Thường có kết quả trong khoảng ~2 tuần.",
+      "benefitsVi": "Phát hiện sớm các bệnh bẩm sinh có thể điều trị như thiếu men G6PD, suy giáp bẩm sinh và tăng sản thượng thận bẩm sinh.",
+      "riskOveruseVi": "Không áp dụng (xét nghiệm một lần; chỉ làm lại nếu phòng xét nghiệm yêu cầu).",
+      "riskMissedVi": "Bỏ lỡ điều trị sớm các bệnh có thể gây khuyết tật nặng nếu phát hiện muộn.",
+      "citations": [
+        "https://www.vinmec.com/vie/bai-viet/sang-loc-so-sinh-xet-nghiem-mau-don-gian-trong-48-72-gio-sau-sinh-giup-xac-dinh-cac-van-de-benh-tat-o-tre-vi",
+        "https://www.vinmec.com/vie/bai-viet/lay-mau-got-chan-cho-tre-so-sinh-co-phat-hien-duoc-benh-nao-vi"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-005",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Cho bú sớm trong 1 giờ đầu",
+      "nameEn": "Early initiation of breastfeeding",
+      "ageFromMonths": 0,
+      "ageToMonths": 0,
+      "ageLabelVi": "Trong vòng 1 giờ sau sinh",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          0
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiếp xúc da kề da và cho bú lần đầu trong giờ đầu tiên sau sinh.",
+      "benefitsVi": "Sữa non cung cấp kháng thể; giúp nuôi con bằng sữa mẹ thành công.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Giảm khả năng nuôi con bằng sữa mẹ thành công; mất sự bảo vệ miễn dịch sớm.",
+      "citations": [
+        "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-006",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Lao (BCG)",
+      "nameEn": "BCG vaccine (tuberculosis)",
+      "ageFromMonths": 0,
+      "ageToMonths": 1,
+      "ageLabelVi": "Từ lúc sinh đến 1 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          0
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "1 liều, tiêm trong da (cánh tay trên), trong tháng đầu sau sinh.",
+      "benefitsVi": "Bảo vệ trẻ nhỏ khỏi các thể lao nặng (lao màng não, lao lan tỏa).",
+      "riskOveruseVi": "Chỉ tiêm một liều; lịch tiêm chủng quốc gia không có mũi nhắc.",
+      "riskMissedVi": "Tăng nguy cơ mắc lao nặng ở trẻ em.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://luatvietnam.vn/y-te/thong-tu-13-2026-tt-byt-quy-dinh-chi-tiet-ve-hoat-dong-tiem-chung-tu-bo-y-te-434914-d1.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-007",
+      "type": "Screening",
+      "typeVi": "Sàng lọc",
+      "nameVi": "Sàng lọc thính lực sơ sinh",
+      "nameEn": "Newborn hearing screening",
+      "ageFromMonths": 0,
+      "ageToMonths": 1,
+      "ageLabelVi": "Trước khi xuất viện, muộn nhất lúc 1 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          0
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Đo không đau (OAE/AABR) tại bệnh viện phụ sản trước khi xuất viện, hoặc tại phòng khám trong tháng đầu.",
+      "benefitsVi": "Phát hiện sớm suy giảm thính lực để hỗ trợ kịp thời sự phát triển nói và ngôn ngữ.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Phát hiện muộn suy giảm thính lực làm chậm phát triển nói và ngôn ngữ.",
+      "citations": [
+        "https://www.vinmec.com/vie/bai-viet/sang-loc-so-sinh-xet-nghiem-mau-don-gian-trong-48-72-gio-sau-sinh-giup-xac-dinh-cac-van-de-benh-tat-o-tre-vi"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-008",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Bú mẹ hoàn toàn",
+      "nameEn": "Exclusive breastfeeding",
+      "ageFromMonths": 0,
+      "ageToMonths": 6,
+      "ageLabelVi": "0–6 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Chỉ bú sữa mẹ – không nước, không sữa khác hay thức ăn khác – bú theo nhu cầu, cả ngày lẫn đêm. Chỉ dùng sữa công thức khi không thể cho bú mẹ (pha đúng hướng dẫn trên hộp).",
+      "benefitsVi": "Dinh dưỡng đầy đủ và bảo vệ miễn dịch; giảm nguy cơ tiêu chảy và viêm phổi.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Tăng nguy cơ nhiễm trùng; cho ăn/uống nước sớm làm tăng nguy cơ tiêu chảy.",
+      "citations": [
+        "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-009",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Vitamin D3 nhỏ giọt",
+      "nameEn": "Vitamin D (drops)",
+      "ageFromMonths": 0,
+      "ageToMonths": 12,
+      "ageLabelVi": "Từ những ngày đầu đến 12 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": true,
+      "condition": "not_formula",
+      "group": null,
+      "howVi": "400 IU (10 mcg) mỗi ngày một lần, cùng giờ mỗi ngày, ví dụ khi bú buổi sáng. Số giọt khác nhau theo nhãn hàng: Aquadetrim 1 giọt ≈ 500 IU; Ddrop Baby 1 giọt = 400 IU – luôn đọc nhãn. Có thể nhỏ lên đầu ti mẹ hoặc thìa sạch. Trẻ bú sữa công thức khoảng ≥800 ml (27 oz) sữa có bổ sung vitamin D/ngày thường không cần bổ sung.",
+      "benefitsVi": "Cần cho hấp thu canxi và phát triển xương; phòng còi xương.",
+      "riskOveruseVi": "Giới hạn tối đa 1.000 IU/ngày (0–6 tháng) và 1.500 IU/ngày (7–12 tháng). Dùng quá nhiều gây tăng canxi máu: nôn, biếng ăn, táo bón, tổn thương thận.",
+      "riskMissedVi": "Thiếu vitamin D và còi xương (xương mềm, biến dạng), chậm lớn.",
+      "citations": [
+        "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Vitamin-Iron-Supplements.aspx",
+        "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      ],
+      "samples": [
+        "https://nhathuoclongchau.com.vn/thuoc/aquadetrim-medana-10ml-4696.html",
+        "https://www.pharmacity.vn/bo-sung-vitamin-d3-ddrop-baby-ho-tro-hap-thu-calci-cho-tre-so-sinh-chai-25ml.html",
+        "https://www.pharmacity.vn/siro-bo-sung-vitamin-d-cho-tre-pediakid-vitamin-d3-chai-20ml.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-010",
+      "type": "Check-up",
+      "typeVi": "Khám định kỳ",
+      "nameVi": "Theo dõi cân nặng, chiều dài",
+      "nameEn": "Growth monitoring (weight, length)",
+      "ageFromMonths": 0,
+      "ageToMonths": 23,
+      "ageLabelVi": "0–23 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 1
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Cân nặng, đo chiều dài và chấm lên biểu đồ tăng trưởng của WHO, mỗi tháng một lần khi trẻ dưới 2 tuổi (thực hành tại Việt Nam).",
+      "benefitsVi": "Phát hiện sớm nhẹ cân, thấp còi hoặc thừa cân.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Các vấn đề tăng trưởng bị phát hiện muộn.",
+      "citations": [
+        "https://www.who.int/tools/child-growth-standards",
+        "https://cdcnghean.vn/chuyen-mon/dinh-duong/theo-doi-tang-truong-va-su-dung-bieu-do-tang-truong-452.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-011",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Vitamin K2",
+      "nameEn": "Vitamin K2",
+      "ageFromMonths": 0,
+      "ageToMonths": 36,
+      "ageLabelVi": "Mọi lứa tuổi – tùy lựa chọn của cha mẹ",
+      "requirement": "info",
+      "requirementVi": "Không có trong hướng dẫn chính thức",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Không có khuyến nghị chính thức dùng thường quy cho trẻ khỏe mạnh. Chỉ dùng khi bác sĩ khuyên. Thường được bán kết hợp dưới dạng D3K2.",
+      "benefitsVi": "Được quảng cáo tốt cho xương; không nằm trong lịch thường quy cho trẻ nhỏ của WHO/AAP/Việt Nam.",
+      "riskOveruseVi": "Theo hướng dẫn trên nhãn; không dùng cùng lúc nhiều sản phẩm có vitamin D (nguy cơ quá liều vitamin D).",
+      "riskMissedVi": "Không có tác hại đã biết khi trẻ khỏe mạnh không dùng.",
+      "citations": [
+        "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Vitamin-Iron-Supplements.aspx"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-012",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Thời lượng ngủ",
+      "nameEn": "Sleep duration",
+      "ageFromMonths": 0,
+      "ageToMonths": 36,
+      "ageLabelVi": "0–3 tháng: 14–17 giờ · 4–11 tháng: 12–16 giờ · 12–24 tháng: 11–14 giờ · 3 tuổi: 10–13 giờ",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tổng thời gian ngủ trong 24 giờ, kể cả giấc ngủ ngày, theo độ tuổi (xem nhãn độ tuổi).",
+      "benefitsVi": "Hỗ trợ tăng trưởng, phát triển não bộ và tâm trạng.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Ngủ kém liên quan đến các vấn đề hành vi và sức khỏe.",
+      "citations": [
+        "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "https://www.who.int/publications/i/item/9789241550536"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-013",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Vận động, nằm sấp",
+      "nameEn": "Physical activity / tummy time",
+      "ageFromMonths": 0,
+      "ageToMonths": 36,
+      "ageLabelVi": "Trẻ nhũ nhi: nằm sấp ≥30 phút mỗi ngày · 1–4 tuổi: vận động ≥180 phút mỗi ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Trẻ nhũ nhi: vận động nhiều lần trong ngày, bao gồm ít nhất 30 phút nằm sấp khi thức. 1–3 tuổi: ít nhất 180 phút vận động đa dạng, chia đều trong ngày.",
+      "benefitsVi": "Phát triển vận động, cân nặng hợp lý.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển kỹ năng vận động; thói quen ít vận động.",
+      "citations": [
+        "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "https://www.who.int/publications/i/item/9789241550536"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-014",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Thời gian xem màn hình",
+      "nameEn": "Screen time",
+      "ageFromMonths": 0,
+      "ageToMonths": 36,
+      "ageLabelVi": "Dưới 2 tuổi: không xem · 2–4 tuổi: tối đa 1 giờ/ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Không cho xem màn hình khi dưới 2 tuổi; từ 2 tuổi trở lên không quá 1 giờ mỗi ngày – càng ít càng tốt. Ưu tiên đọc sách và kể chuyện.",
+      "benefitsVi": "Bảo vệ sự phát triển ngôn ngữ, giấc ngủ và vận động.",
+      "riskOveruseVi": "Xem màn hình quá nhiều lấy mất thời gian chơi, ngủ và giao tiếp.",
+      "riskMissedVi": "Không áp dụng.",
+      "citations": [
+        "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "https://www.who.int/publications/i/item/9789241550536"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-015",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Vắc xin 5 trong 1 (DPT-VGB-Hib) mũi 1",
+      "nameEn": "5-in-1 vaccine (DTP-HepB-Hib) – dose 1",
+      "ageFromMonths": 2,
+      "ageToMonths": 2,
+      "ageLabelVi": "2 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. Các liều lúc 2, 3, 4 tháng, cách nhau ít nhất 1 tháng. Đây là liều 1.",
+      "benefitsVi": "Phòng bạch hầu, ho gà, uốn ván, viêm gan B và Hib (viêm phổi, viêm màng não).",
+      "riskOveruseVi": "Không tiêm các liều gần hơn khoảng cách tối thiểu; tiêm thêm liều không có thêm lợi ích.",
+      "riskMissedVi": "Trẻ nhỏ có nguy cơ cao bị ho gà nặng, viêm màng não/viêm phổi do Hib và bạch hầu; nếu trễ liều thì tiêm bù, không cần tiêm lại từ đầu.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers",
+        "https://luatvietnam.vn/y-te/thong-tu-13-2026-tt-byt-quy-dinh-chi-tiet-ve-hoat-dong-tiem-chung-tu-bo-y-te-434914-d1.html"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-6-trong-1-hexaxim-vac-xin-phoi-hop-the-he-moi-nhat-cua-sanofi-pasteur/",
+        "https://vnvc.vn/infanrix-vac-xin-6-trong-1/",
+        "https://tiemchunglongchau.com.vn/kien-thuc-tiem-chung/phac-do-lich-tiem-vac-xin-6-trong-1"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-016",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Bại liệt uống (OPV) lần 1",
+      "nameEn": "Oral polio vaccine (OPV) – dose 1",
+      "ageFromMonths": 2,
+      "ageToMonths": 2,
+      "ageLabelVi": "2 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Nhỏ miệng (thường 2 giọt mỗi liều – kiểm tra theo sản phẩm) lúc 2, 3, 4 tháng, cùng buổi với mũi 5 trong 1. Đây là liều 1.",
+      "benefitsVi": "Phòng bệnh bại liệt (liệt).",
+      "riskOveruseVi": "Các liều bổ sung trong chiến dịch quốc gia là an toàn và có chủ đích.",
+      "riskMissedVi": "Nguy cơ nhiễm bại liệt và liệt vĩnh viễn.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-017",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Rota (Rotavin) liều 1",
+      "nameEn": "Rotavirus vaccine (Rotavin) – dose 1",
+      "ageFromMonths": 2,
+      "ageToMonths": 2,
+      "ageLabelVi": "2 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Uống, 2 ml mỗi liều từ lọ đơn liều có ống nhỏ giọt. Liều 1 lúc 2 tháng.",
+      "benefitsVi": "Phòng tiêu chảy nặng và mất nước do rota virus.",
+      "riskOveruseVi": "Không áp dụng; không cho uống quá liệu trình 2 liều.",
+      "riskMissedVi": "Nguy cơ cao bị tiêu chảy nặng và mất nước phải nằm viện trong những năm đầu.",
+      "citations": [
+        "https://cdn.haiphong.gov.vn/gov-hpg/6813/tintuc/2026/1/263-kh-trien-khai-vac-xin-rota-trong-ctttmr-nam-2026.signed639035718215632484.pdf",
+        "https://baochinhphu.vn/14-benh-phai-su-dung-vaccine-sinh-pham-trong-tiem-chung-bac-buoc-102260520095214204.htm",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-phong-rotavirus/",
+        "https://vnvc.vn/vac-xin-rota-la-gi-uong-o-dau-gia-bao-nhieu/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-018",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 2 tháng",
+      "nameEn": "Developmental milestone check – 2 months",
+      "ageFromMonths": 2,
+      "ageToMonths": 2,
+      "ageLabelVi": "2 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 2 tháng. Ví dụ: cười khi bạn nói chuyện; ngẩng đầu khi nằm sấp. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-019",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Rota dịch vụ",
+      "nameEn": "Rotavirus vaccine (Rotarix / RotaTeq) – paid",
+      "ageFromMonths": 2,
+      "ageToMonths": 8,
+      "ageLabelVi": "Rotarix: 2 & 3 tháng · RotaTeq: 2, 3, 4 tháng",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2,
+          3
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": "rota",
+      "howVi": "Uống. Rotarix: 2 liều; RotaTeq: 3 liều. Giới hạn tuổi tối đa nghiêm ngặt theo nhãn sản phẩm – không bắt đầu muộn.",
+      "benefitsVi": "Phòng tiêu chảy nặng do rota virus.",
+      "riskOveruseVi": "Không dùng xen kẽ với liệu trình Rotavin miễn phí.",
+      "riskMissedVi": "Xem mục Rotavin.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-phong-rotavirus/",
+        "https://vnvc.vn/vac-xin-rota-la-gi-uong-o-dau-gia-bao-nhieu/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-020",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Phế cầu (tiêm chủng mở rộng)",
+      "nameEn": "Pneumococcal vaccine (PCV) – national program",
+      "ageFromMonths": 2,
+      "ageToMonths": 12,
+      "ageLabelVi": "Giai đoạn nhũ nhi – lịch theo chương trình",
+      "requirement": "optional",
+      "requirementVi": "Miễn phí ở tỉnh đang triển khai",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": "pcv",
+      "howVi": "Tiêm; lịch của chương trình miễn phí quốc gia đang chờ xác nhận. Đang triển khai theo từng tỉnh (Quyết định 2780/QĐ-BYT).",
+      "benefitsVi": "Phòng viêm phổi, viêm màng não và nhiễm khuẩn huyết do phế cầu.",
+      "riskOveruseVi": "Không dùng xen kẽ các loại vắc xin/chương trình khác nhau khi chưa hỏi bác sĩ.",
+      "riskMissedVi": "Tăng nguy cơ viêm phổi nặng và viêm màng não ở trẻ nhỏ.",
+      "citations": [
+        "https://baochinhphu.vn/ke-hoach-tiem-vaccine-phe-cau-va-hpv-trong-tiem-chung-mo-rong-102251115094104038.htm",
+        "https://baochinhphu.vn/14-benh-phai-su-dung-vaccine-sinh-pham-trong-tiem-chung-bac-buoc-102260520095214204.htm",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/lich-tiem-phe-cau/",
+        "https://vnvc.vn/vac-xin-phe-cau-13-gia-bao-nhieu/",
+        "https://vnvc.vn/vac-xin-vaxneuvance-15/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-021",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Phế cầu dịch vụ",
+      "nameEn": "Pneumococcal vaccine – paid (Synflorix / Prevenar 13 / Vaxneuvance)",
+      "ageFromMonths": 2,
+      "ageToMonths": 12,
+      "ageLabelVi": "2, 3, 4 tháng + nhắc lúc 12 tháng",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2,
+          3,
+          4,
+          12
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": "pcv",
+      "howVi": "Tiêm bắp. 3 liều cơ bản lúc 2, 3, 4 tháng + mũi nhắc lúc 12 tháng (lịch VNVC). Lịch tiêm bù khác nếu bắt đầu muộn.",
+      "benefitsVi": "Phòng viêm phổi, viêm màng não, viêm tai giữa do phế cầu.",
+      "riskOveruseVi": "Không dùng xen kẽ các loại vắc xin khi chưa hỏi bác sĩ.",
+      "riskMissedVi": "Tăng nguy cơ viêm phổi nặng và viêm màng não.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers"
+      ],
+      "samples": [
+        "https://vnvc.vn/lich-tiem-phe-cau/",
+        "https://vnvc.vn/vac-xin-phe-cau-13-gia-bao-nhieu/",
+        "https://vnvc.vn/vac-xin-vaxneuvance-15/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-022",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Não mô cầu ACYW",
+      "nameEn": "Meningococcal ACYW vaccine (MenQuadfi / Menactra)",
+      "ageFromMonths": 2,
+      "ageToMonths": 12,
+      "ageLabelVi": "MenQuadfi: 2, 4, 12 tháng · Menactra: 9 & 12 tháng",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          9,
+          12
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. Lịch tùy theo loại vắc xin (xem độ tuổi).",
+      "benefitsVi": "Phòng não mô cầu nhóm A, C, Y, W.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Xem mục não mô cầu B.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/"
+      ],
+      "samples": [
+        "https://vnvc.vn/menquadfi-va-menactra/",
+        "https://vnvc.vn/vac-xin-menactra-phong-benh-vi-khuan-nao-mo-cau-tuyp-acyw/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-023",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Não mô cầu B",
+      "nameEn": "Meningococcal B vaccine (Bexsero)",
+      "ageFromMonths": 2,
+      "ageToMonths": 15,
+      "ageLabelVi": "2 & 4 tháng (+ mũi nhắc theo nhãn)",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2,
+          4
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. 2 liều lúc 2 và 4 tháng (VNVC); thời điểm mũi nhắc theo nhãn sản phẩm.",
+      "benefitsVi": "Phòng viêm màng não và nhiễm khuẩn huyết do não mô cầu nhóm B.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Bệnh não mô cầu hiếm gặp nhưng có thể gây tử vong rất nhanh.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-bexsero-tiem-o-dau/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-024",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Vắc xin 6 trong 1",
+      "nameEn": "6-in-1 vaccine (Hexaxim / Infanrix Hexa)",
+      "ageFromMonths": 2,
+      "ageToMonths": 24,
+      "ageLabelVi": "2, 3, 4 tháng + nhắc lúc 15–24 tháng",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          2,
+          3,
+          4,
+          18
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": "dtp",
+      "howVi": "Tiêm bắp. 3 liều cơ bản lúc 2, 3, 4 tháng + 1 mũi nhắc lúc 15–24 tháng. Thay thế loạt 5 trong 1 + IPV miễn phí – không tiêm trùng.",
+      "benefitsVi": "Phòng các bệnh giống 5 trong 1 cộng thêm bại liệt (IPV) trong một mũi tiêm; thành phần ho gà vô bào.",
+      "riskOveruseVi": "Không tiêm cùng với 5 trong 1 miễn phí cho cùng một liều.",
+      "riskMissedVi": "Xem mục 5 trong 1.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-6-trong-1-hexaxim-vac-xin-phoi-hop-the-he-moi-nhat-cua-sanofi-pasteur/",
+        "https://vnvc.vn/infanrix-vac-xin-6-trong-1/",
+        "https://tiemchunglongchau.com.vn/kien-thuc-tiem-chung/phac-do-lich-tiem-vac-xin-6-trong-1"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-025",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Vắc xin 5 trong 1 (DPT-VGB-Hib) mũi 2",
+      "nameEn": "5-in-1 vaccine (DTP-HepB-Hib) – dose 2",
+      "ageFromMonths": 3,
+      "ageToMonths": 3,
+      "ageLabelVi": "3 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          3
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. Các liều lúc 2, 3, 4 tháng, cách nhau ít nhất 1 tháng. Đây là liều 2.",
+      "benefitsVi": "Phòng bạch hầu, ho gà, uốn ván, viêm gan B và Hib (viêm phổi, viêm màng não).",
+      "riskOveruseVi": "Không tiêm các liều gần hơn khoảng cách tối thiểu; tiêm thêm liều không có thêm lợi ích.",
+      "riskMissedVi": "Trẻ nhỏ có nguy cơ cao bị ho gà nặng, viêm màng não/viêm phổi do Hib và bạch hầu; nếu trễ liều thì tiêm bù, không cần tiêm lại từ đầu.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers",
+        "https://luatvietnam.vn/y-te/thong-tu-13-2026-tt-byt-quy-dinh-chi-tiet-ve-hoat-dong-tiem-chung-tu-bo-y-te-434914-d1.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-026",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Bại liệt uống (OPV) lần 2",
+      "nameEn": "Oral polio vaccine (OPV) – dose 2",
+      "ageFromMonths": 3,
+      "ageToMonths": 3,
+      "ageLabelVi": "3 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          3
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Nhỏ miệng (thường 2 giọt mỗi liều – kiểm tra theo sản phẩm) lúc 2, 3, 4 tháng, cùng buổi với mũi 5 trong 1. Đây là liều 2.",
+      "benefitsVi": "Phòng bệnh bại liệt (liệt).",
+      "riskOveruseVi": "Các liều bổ sung trong chiến dịch quốc gia là an toàn và có chủ đích.",
+      "riskMissedVi": "Nguy cơ nhiễm bại liệt và liệt vĩnh viễn.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-027",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Rota (Rotavin) liều 2",
+      "nameEn": "Rotavirus vaccine (Rotavin) – dose 2",
+      "ageFromMonths": 3,
+      "ageToMonths": 5,
+      "ageLabelVi": "≥1 tháng sau liều 1, trước 6 tháng tuổi",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          3
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Uống, 2 ml. Ít nhất 1 tháng sau liều 1; phải hoàn thành cả hai liều trước 6 tháng tuổi.",
+      "benefitsVi": "Hoàn tất sự bảo vệ chống rota virus.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Bảo vệ không đầy đủ; không thể bắt đầu/hoàn thành liệu trình sau giới hạn tuổi.",
+      "citations": [
+        "https://cdn.haiphong.gov.vn/gov-hpg/6813/tintuc/2026/1/263-kh-trien-khai-vac-xin-rota-trong-ctttmr-nam-2026.signed639035718215632484.pdf"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-028",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Vắc xin 5 trong 1 (DPT-VGB-Hib) mũi 3",
+      "nameEn": "5-in-1 vaccine (DTP-HepB-Hib) – dose 3",
+      "ageFromMonths": 4,
+      "ageToMonths": 4,
+      "ageLabelVi": "4 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          4
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. Các liều lúc 2, 3, 4 tháng, cách nhau ít nhất 1 tháng. Đây là liều 3.",
+      "benefitsVi": "Phòng bạch hầu, ho gà, uốn ván, viêm gan B và Hib (viêm phổi, viêm màng não).",
+      "riskOveruseVi": "Không tiêm các liều gần hơn khoảng cách tối thiểu; tiêm thêm liều không có thêm lợi ích.",
+      "riskMissedVi": "Trẻ nhỏ có nguy cơ cao bị ho gà nặng, viêm màng não/viêm phổi do Hib và bạch hầu; nếu trễ liều thì tiêm bù, không cần tiêm lại từ đầu.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers",
+        "https://luatvietnam.vn/y-te/thong-tu-13-2026-tt-byt-quy-dinh-chi-tiet-ve-hoat-dong-tiem-chung-tu-bo-y-te-434914-d1.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-029",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Bại liệt uống (OPV) lần 3",
+      "nameEn": "Oral polio vaccine (OPV) – dose 3",
+      "ageFromMonths": 4,
+      "ageToMonths": 4,
+      "ageLabelVi": "4 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          4
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Nhỏ miệng (thường 2 giọt mỗi liều – kiểm tra theo sản phẩm) lúc 2, 3, 4 tháng, cùng buổi với mũi 5 trong 1. Đây là liều 3.",
+      "benefitsVi": "Phòng bệnh bại liệt (liệt).",
+      "riskOveruseVi": "Các liều bổ sung trong chiến dịch quốc gia là an toàn và có chủ đích.",
+      "riskMissedVi": "Nguy cơ nhiễm bại liệt và liệt vĩnh viễn.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-030",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 4 tháng",
+      "nameEn": "Developmental milestone check – 4 months",
+      "ageFromMonths": 4,
+      "ageToMonths": 4,
+      "ageLabelVi": "4 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          4
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 4 tháng. Ví dụ: giữ đầu vững khi được bế; phát âm \"ư, a\"; đưa tay lên miệng. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-031",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Bổ sung sắt (trẻ bú mẹ)",
+      "nameEn": "Iron supplement (breastfed infants)",
+      "ageFromMonths": 4,
+      "ageToMonths": 6,
+      "ageLabelVi": "Từ 4 tháng đến khi ăn được thức ăn giàu sắt",
+      "requirement": "conditional",
+      "requirementVi": "Tùy trường hợp – hỏi bác sĩ",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "AAP: 1 mg/kg/ngày sắt nguyên tố cho trẻ bú mẹ hoàn toàn/chủ yếu, từ 4 tháng đến khi bắt đầu ăn dặm thức ăn giàu sắt. Trẻ sinh non/nhẹ cân có thể bắt đầu sớm hơn – do bác sĩ quyết định. Thời điểm uống theo nhãn sản phẩm (nhiều loại khuyên uống giữa các bữa ăn).",
+      "benefitsVi": "Phòng thiếu sắt và thiếu máu; sắt hỗ trợ phát triển não bộ.",
+      "riskOveruseVi": "Giới hạn tối đa 40 mg/ngày. Uống nhầm quá liều sắt là một trong những nguyên nhân hàng đầu gây ngộ độc tử vong ở trẻ dưới 6 tuổi – cất xa tầm tay trẻ. Tác dụng phụ: táo bón, khó chịu dạ dày, phân sẫm màu.",
+      "riskMissedVi": "Thiếu máu do thiếu sắt; chậm phát triển khả năng chú ý và phát triển chung, một số ảnh hưởng có thể không hồi phục.",
+      "citations": [
+        "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Vitamin-Iron-Supplements.aspx",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      ],
+      "samples": [
+        "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/ferrolip-baby-inpharma-spa-30-ml.html",
+        "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/pedia-iron-drops-bayshore-30ml-sat-cho-tre-em-20171.html",
+        "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/buona-ferrodue-15-ml.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-032",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Bại liệt tiêm (IPV) mũi 1",
+      "nameEn": "Inactivated polio vaccine (IPV) – dose 1",
+      "ageFromMonths": 5,
+      "ageToMonths": 5,
+      "ageLabelVi": "5 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          5
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm lúc 5 tháng.",
+      "benefitsVi": "Tăng cường bảo vệ chống bại liệt (lịch kết hợp OPV + IPV).",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Bảo vệ chống bại liệt yếu hơn.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-033",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 6 tháng",
+      "nameEn": "Developmental milestone check – 6 months",
+      "ageFromMonths": 6,
+      "ageToMonths": 6,
+      "ageLabelVi": "6 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          6
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 6 tháng. Ví dụ: lật từ sấp sang ngửa; cười thành tiếng; chống tay khi ngồi. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-034",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Não mô cầu BC",
+      "nameEn": "Meningococcal BC vaccine (VA-Mengoc-BC)",
+      "ageFromMonths": 6,
+      "ageToMonths": 8,
+      "ageLabelVi": "6 tháng, sau đó 45 ngày",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          6,
+          8
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. 2 liều: lúc 6 tháng và ~7,5 tháng (cách nhau 45 ngày).",
+      "benefitsVi": "Phòng não mô cầu nhóm B và C.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Xem mục não mô cầu B.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-viem-nao-mo-cau-bc-tiem-may-mui/",
+        "https://vnvc.vn/vac-xin-viem-mang-nao-mo-cau-bc/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-035",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Bắt đầu ăn dặm",
+      "nameEn": "Start complementary foods",
+      "ageFromMonths": 6,
+      "ageToMonths": 8,
+      "ageLabelVi": "6–8 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          6
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bắt đầu lúc 6 tháng và vẫn tiếp tục cho bú mẹ. 2–3 bữa/ngày lúc 6–8 tháng. Mỗi ngày có thức ăn nguồn động vật (thịt, cá, trứng) và trái cây/rau.",
+      "benefitsVi": "Từ 6 tháng, chỉ sữa mẹ không còn đủ nhu cầu (sắt, kẽm, năng lượng).",
+      "riskOveruseVi": "Tránh thức ăn nhiều đường và muối, đồ uống có đường, chất tạo ngọt; hạn chế nước ép trái cây.",
+      "riskMissedVi": "Ăn dặm muộn → chậm tăng trưởng và thiếu vi chất.",
+      "citations": [
+        "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.who.int/publications/i/item/9789240081864",
+        "https://www.ncbi.nlm.nih.gov/books/NBK596423/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-036",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Uống vitamin A liều cao (6–11 tháng)",
+      "nameEn": "Vitamin A high dose – national campaign",
+      "ageFromMonths": 6,
+      "ageToMonths": 11,
+      "ageLabelVi": "6–11 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị (chiến dịch quốc gia, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          6
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "100.000 IU một lần, do nhân viên y tế cho uống tại trạm y tế xã trong ngày chiến dịch (2 đợt/năm; đợt 1 vào tháng 6).",
+      "benefitsVi": "Giảm tử vong ở trẻ và giảm mức độ nặng của sởi và tiêu chảy; phòng quáng gà.",
+      "riskOveruseVi": "Không tự cho uống thêm viên liều cao tại nhà. Giới hạn tối đa vitamin A dạng có sẵn hằng ngày là 600 mcg; quá liều cấp gây đau đầu, nôn, tăng áp lực nội sọ (thóp phồng ở trẻ nhỏ).",
+      "riskMissedVi": "Thiếu vitamin A: quáng gà, khô mắt (có thể gây mù), nhiễm trùng nặng hơn.",
+      "citations": [
+        "https://www.vietnamplus.vn/trien-khai-chien-dich-bo-sung-vitamin-a-tren-toan-quoc-bat-dau-tu-thang-6-post1113176.vnp",
+        "https://www.who.int/publications/i/item/9789241501767",
+        "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-037",
+      "type": "Check-up",
+      "typeVi": "Khám định kỳ",
+      "nameVi": "Khám răng lần đầu",
+      "nameEn": "First dental visit",
+      "ageFromMonths": 6,
+      "ageToMonths": 12,
+      "ageLabelVi": "Khi mọc răng đầu tiên hoặc lúc 12 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Khám răng lần đầu trước sinh nhật đầu tiên hoặc khi mọc chiếc răng đầu tiên.",
+      "benefitsVi": "Phòng sâu răng sớm; được tư vấn về fluor.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Phát hiện sâu răng muộn.",
+      "citations": [
+        "https://www.healthychildren.org/English/ages-stages/baby/teething-tooth-care/Pages/Babys-First-Tooth-Facts-Parents-Should-Know.aspx"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-038",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Bổ sung sắt 6–23 tháng",
+      "nameEn": "Iron supplement (anaemia-prone settings)",
+      "ageFromMonths": 6,
+      "ageToMonths": 23,
+      "ageLabelVi": "6–23 tháng",
+      "requirement": "conditional",
+      "requirementVi": "Tùy trường hợp – hỏi bác sĩ",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "WHO: 10–12,5 mg sắt nguyên tố mỗi ngày dạng giọt/siro, trong 3 tháng liên tục mỗi năm, ở nơi có tỷ lệ thiếu máu ≥40%.",
+      "benefitsVi": "Phòng thiếu sắt và thiếu máu.",
+      "riskOveruseVi": "Xem mục bổ sung sắt ở trên.",
+      "riskMissedVi": "Xem mục bổ sung sắt ở trên.",
+      "citations": [
+        "https://www.who.int/publications/i/item/9789241549523",
+        "https://www.ncbi.nlm.nih.gov/books/NBK362027/",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      ],
+      "samples": [
+        "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/ferrolip-baby-inpharma-spa-30-ml.html",
+        "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/pedia-iron-drops-bayshore-30ml-sat-cho-tre-em-20171.html",
+        "https://nhathuoclongchau.com.vn/thuc-pham-chuc-nang/buona-ferrodue-15-ml.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-039",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Tiếp tục bú mẹ đến 24 tháng",
+      "nameEn": "Continue breastfeeding",
+      "ageFromMonths": 6,
+      "ageToMonths": 24,
+      "ageLabelVi": "6–24 tháng và lâu hơn",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiếp tục cho bú mẹ đến 2 tuổi hoặc lâu hơn, song song với ăn dặm.",
+      "benefitsVi": "Tiếp tục có lợi ích về dinh dưỡng và miễn dịch.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Mất lợi ích về dinh dưỡng và miễn dịch.",
+      "citations": [
+        "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.ncbi.nlm.nih.gov/books/NBK596423/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-040",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Cúm",
+      "nameEn": "Influenza vaccine (Vaxigrip Tetra / Influvac Tetra)",
+      "ageFromMonths": 6,
+      "ageToMonths": 36,
+      "ageLabelVi": "Từ 6 tháng, mỗi năm",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 12
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. Lần đầu: 2 liều cách nhau ít nhất 1 tháng; sau đó 1 liều mỗi năm (trước mùa cúm).",
+      "benefitsVi": "Giảm nguy cơ cúm nặng và biến chứng ở trẻ nhỏ.",
+      "riskOveruseVi": "Chỉ một liều mỗi năm sau mùa đầu tiên.",
+      "riskMissedVi": "Trẻ nhỏ có nguy cơ cao hơn bị cúm nặng và phải nhập viện.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table1-summary-of-who-position-papers-recommendations-for-routine-immunization"
+      ],
+      "samples": [
+        "https://vnvc.vn/lich-tiem-vac-xin-cum-cho-tre-em/",
+        "https://vnvc.vn/vac-xin-cum/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-041",
+      "type": "Hygiene",
+      "typeVi": "Vệ sinh",
+      "nameVi": "Đánh răng với kem có fluor",
+      "nameEn": "Tooth brushing with fluoride toothpaste",
+      "ageFromMonths": 6,
+      "ageToMonths": 36,
+      "ageLabelVi": "Từ khi mọc răng đầu tiên",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Đánh răng 2 lần mỗi ngày từ chiếc răng đầu tiên với một lớp mỏng (bằng hạt gạo) kem đánh răng có fluor; lượng bằng hạt đậu từ 3 tuổi.",
+      "benefitsVi": "Phòng sâu răng.",
+      "riskOveruseVi": "Nuốt quá nhiều fluor trong thời gian dài có thể gây đốm trắng trên răng (nhiễm fluor) – hãy dùng đúng lượng.",
+      "riskMissedVi": "Sâu răng sớm ở trẻ nhỏ, đau và nhiễm trùng.",
+      "citations": [
+        "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/FAQ-Fluoride-and-Children.aspx",
+        "https://www.healthychildren.org/English/ages-stages/baby/teething-tooth-care/Pages/Babys-First-Tooth-Facts-Parents-Should-Know.aspx"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-042",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Bại liệt tiêm (IPV) mũi 2",
+      "nameEn": "Inactivated polio vaccine (IPV) – dose 2",
+      "ageFromMonths": 9,
+      "ageToMonths": 9,
+      "ageLabelVi": "9 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          9
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm lúc 9 tháng.",
+      "benefitsVi": "Hoàn tất loạt tiêm IPV.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Bảo vệ chống bại liệt yếu hơn.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-043",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Sởi mũi 1",
+      "nameEn": "Measles vaccine – dose 1",
+      "ageFromMonths": 9,
+      "ageToMonths": 9,
+      "ageLabelVi": "9 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          9
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm dưới da lúc 9 tháng. Giữ khoảng cách ≥1 tháng giữa các vắc xin sống (MMR, thủy đậu, viêm não Nhật Bản sống) trừ khi tiêm cùng ngày.",
+      "benefitsVi": "Phòng sởi và các biến chứng (viêm phổi, viêm não).",
+      "riskOveruseVi": "Các liều bổ sung trong chiến dịch chống dịch là có chủ đích và an toàn.",
+      "riskMissedVi": "Sởi có thể gây viêm phổi nặng, viêm não và tử vong; dịch sởi vẫn tái diễn ở Việt Nam.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-priorix/",
+        "https://vnvc.vn/vac-xin-mmr/",
+        "https://vnvc.vn/lich-tiem-soi-quai-bi-rubella/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-044",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 9 tháng",
+      "nameEn": "Developmental milestone check – 9 months",
+      "ageFromMonths": 9,
+      "ageToMonths": 9,
+      "ageLabelVi": "9 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          9
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 9 tháng. Ví dụ: ngồi không cần đỡ; phát âm kiểu \"ma ma ma\"; tìm đồ vật bị rơi. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-045",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Sởi – Quai bị – Rubella",
+      "nameEn": "MMR vaccine (Priorix / MMR II) – paid",
+      "ageFromMonths": 9,
+      "ageToMonths": 12,
+      "ageLabelVi": "Priorix từ 9 tháng · MMR II từ 12 tháng",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm dưới da/tiêm bắp theo nhãn. Liều 1 lúc 9–12 tháng; liều 2 vào giai đoạn sau của tuổi thơ. Cách các vắc xin sống khác ≥1 tháng.",
+      "benefitsVi": "Bổ sung bảo vệ chống quai bị bên cạnh sởi/rubella.",
+      "riskOveruseVi": "Phối hợp lịch với các mũi sởi/MR miễn phí.",
+      "riskMissedVi": "Nguy cơ quai bị (viêm tinh hoàn, viêm màng não).",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-priorix/",
+        "https://vnvc.vn/vac-xin-mmr/",
+        "https://vnvc.vn/lich-tiem-soi-quai-bi-rubella/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-046",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Số bữa ăn 9–23 tháng",
+      "nameEn": "Complementary feeding – meal frequency",
+      "ageFromMonths": 9,
+      "ageToMonths": 23,
+      "ageLabelVi": "9–23 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "3–4 bữa/ngày cộng 1–2 bữa phụ; ăn đa dạng: mỗi ngày có thức ăn nguồn động vật và trái cây/rau, thường xuyên có đậu/hạt. Cho ăn đáp ứng (theo tín hiệu đói/no của trẻ).",
+      "benefitsVi": "Hỗ trợ tăng trưởng và phát triển.",
+      "riskOveruseVi": "Tránh thức ăn không lành mạnh và đồ uống có đường.",
+      "riskMissedVi": "Chậm lớn, thấp còi, thiếu máu.",
+      "citations": [
+        "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+        "https://www.ncbi.nlm.nih.gov/books/NBK596423/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-047",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Thủy đậu",
+      "nameEn": "Varicella vaccine (Varilrix / Varivax / Barycela)",
+      "ageFromMonths": 9,
+      "ageToMonths": 24,
+      "ageLabelVi": "Varilrix: 9 tháng + 15–24 tháng · Varivax/Barycela: 12 tháng + 15–24 tháng",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12,
+          18
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm dưới da. 2 liều; tuổi tiêm liều đầu tùy loại vắc xin.",
+      "benefitsVi": "Phòng thủy đậu và các biến chứng.",
+      "riskOveruseVi": "Cách các vắc xin sống khác ≥1 tháng.",
+      "riskMissedVi": "Thủy đậu có thể gây nhiễm trùng da, viêm phổi, viêm não.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-thuy-dau/",
+        "https://vnvc.vn/vac-xin-barycela/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-048",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Viêm não Nhật Bản Imojev",
+      "nameEn": "Japanese encephalitis vaccine (Imojev) – paid",
+      "ageFromMonths": 9,
+      "ageToMonths": 24,
+      "ageLabelVi": "9 tháng + nhắc sau đó 12–24 tháng",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          9,
+          21
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": "je",
+      "howVi": "Tiêm dưới da. 1 liều từ 9 tháng, mũi nhắc sau 12+ tháng. Thay thế loạt 3 liều viêm não Nhật Bản miễn phí.",
+      "benefitsVi": "Ít liều hơn vắc xin viêm não Nhật Bản miễn phí.",
+      "riskOveruseVi": "Không tiêm trùng với loạt viêm não Nhật Bản miễn phí.",
+      "riskMissedVi": "Xem các mục viêm não Nhật Bản.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-viem-nao-nhat-ban/",
+        "https://vnvc.vn/viem-nao-nhat-ban-tiem-may-mui/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-049",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Viêm não Nhật Bản mũi 1",
+      "nameEn": "Japanese encephalitis vaccine (JE) – dose 1",
+      "ageFromMonths": 12,
+      "ageToMonths": 12,
+      "ageLabelVi": "12 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": "je",
+      "howVi": "Tiêm. Liều 1 lúc 12 tháng.",
+      "benefitsVi": "Phòng viêm não Nhật Bản (bệnh nhiễm trùng não do muỗi truyền).",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Viêm não Nhật Bản có thể gây tử vong hoặc tổn thương não nặng lâu dài.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-viem-nao-nhat-ban/",
+        "https://vnvc.vn/viem-nao-nhat-ban-tiem-may-mui/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-050",
+      "type": "Screening",
+      "typeVi": "Sàng lọc",
+      "nameVi": "Tầm soát thiếu máu thiếu sắt",
+      "nameEn": "Anaemia screening",
+      "ageFromMonths": 12,
+      "ageToMonths": 12,
+      "ageLabelVi": "12 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Xét nghiệm máu (huyết sắc tố) vào khoảng 12 tháng.",
+      "benefitsVi": "Phát hiện sớm thiếu máu do thiếu sắt.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Thiếu máu không được phát hiện, ảnh hưởng đến sự phát triển.",
+      "citations": [
+        "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Vitamin-Iron-Supplements.aspx"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-051",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 12 tháng",
+      "nameEn": "Developmental milestone check – 12 months",
+      "ageFromMonths": 12,
+      "ageToMonths": 12,
+      "ageLabelVi": "12 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 12 tháng. Ví dụ: vịn để đứng lên; vịn đồ vật để đi; vẫy tay bye-bye. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-052",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Viêm não Nhật Bản mũi 2",
+      "nameEn": "Japanese encephalitis vaccine (JE) – dose 2",
+      "ageFromMonths": 12,
+      "ageToMonths": 13,
+      "ageLabelVi": "1–2 tuần sau liều 1",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12.5
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": "je",
+      "howVi": "Tiêm 1–2 tuần sau liều 1.",
+      "benefitsVi": "Tạo miễn dịch cơ bản.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Bảo vệ không đầy đủ.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-053",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Viêm gan A",
+      "nameEn": "Hepatitis A vaccine (Avaxim 80U)",
+      "ageFromMonths": 12,
+      "ageToMonths": 18,
+      "ageLabelVi": "12 tháng + 18 tháng",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          12,
+          18
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. Liều 1 lúc 12 tháng, liều 2 lúc 18 tháng (lịch VNVC).",
+      "benefitsVi": "Phòng viêm gan A (lây qua thức ăn/nước uống).",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Nguy cơ nhiễm viêm gan A.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/"
+      ],
+      "samples": [
+        "https://vnvc.vn/cap-nhat-gia-tiem-phong-vac-xin-viem-gan-moi-nhat-hien-nay/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-054",
+      "type": "Drug",
+      "typeVi": "Thuốc",
+      "nameVi": "Tẩy giun 12–23 tháng",
+      "nameEn": "Deworming (12–23 months)",
+      "ageFromMonths": 12,
+      "ageToMonths": 23,
+      "ageLabelVi": "12–23 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 6
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Một liều duy nhất: albendazole 200 mg HOẶC mebendazole 500 mg. Tần suất 1–2 lần/năm tùy tỷ lệ nhiễm giun tại địa phương (WHO: mỗi năm một lần nếu ≥20%, hai lần mỗi năm nếu ≥50%). Nghiền/nhai viên thuốc cho trẻ nhỏ để tránh hóc. Có thể uống lúc no hoặc đói. Không cho uống khi trẻ sốt >38,5°C hoặc đang ốm cấp.",
+      "benefitsVi": "Giảm lượng giun, vốn gây thiếu máu, suy dinh dưỡng và chậm lớn.",
+      "riskOveruseVi": "Uống thường xuyên hơn khuyến nghị không có thêm lợi ích. Tác dụng phụ: đau bụng, buồn nôn, tiêu chảy; hiếm khi dị ứng hoặc tăng men gan.",
+      "riskMissedVi": "Nếu bị nhiễm: thiếu máu, suy dinh dưỡng, thấp còi.",
+      "citations": [
+        "https://tuoitre.vn/nld/suc-khoe/nhung-dieu-can-biet-khi-tay-giun-duong-ruot-cho-tre-20230314153612473.htm",
+        "https://vihema.com/can-luu-y-gi-khi-tay-giun-cho-tre-de-dam-bao-an-toan.html",
+        "https://www.who.int/publications/i/item/9789241550116"
+      ],
+      "samples": [
+        "https://nhathuoclongchau.com.vn/thuoc/zentel-200mg-1686.html",
+        "https://nhathuoclongchau.com.vn/thuoc/albendazol-400mg-4825.html",
+        "https://nhathuoclongchau.com.vn/thuoc/fugacar-500mg-3693.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-055",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Sữa cho trẻ 12–23 tháng",
+      "nameEn": "Milk for children 12–23 months (not breastfed)",
+      "ageFromMonths": 12,
+      "ageToMonths": 23,
+      "ageLabelVi": "12–23 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Sữa động vật (ví dụ sữa bò tiệt trùng/thanh trùng) là phù hợp; WHO cho biết không cần dùng sữa công thức tiếp theo/sữa tăng trưởng.",
+      "benefitsVi": "Năng lượng, đạm, canxi.",
+      "riskOveruseVi": "Uống quá nhiều sữa có thể làm trẻ ăn ít thức ăn giàu sắt.",
+      "riskMissedVi": "Thiếu canxi/đạm nếu chế độ ăn nghèo nàn.",
+      "citations": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK596423/",
+        "https://www.who.int/publications/i/item/9789240081864"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-056",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Vitamin D 1–3 tuổi",
+      "nameEn": "Vitamin D (food + supplement if needed)",
+      "ageFromMonths": 12,
+      "ageToMonths": 36,
+      "ageLabelVi": "12–36 tháng",
+      "requirement": "conditional",
+      "requirementVi": "Tùy trường hợp – hỏi bác sĩ",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tổng cộng 600 IU (15 mcg) mỗi ngày từ thức ăn và thực phẩm bổ sung.",
+      "benefitsVi": "Tốt cho xương và răng.",
+      "riskOveruseVi": "Giới hạn tối đa 2.500 IU/ngày (1–3 tuổi). Dùng quá nhiều gây tăng canxi máu và bệnh thận.",
+      "riskMissedVi": "Nguy cơ thiếu vitamin D, xương yếu.",
+      "citations": [
+        "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Vitamin-Iron-Supplements.aspx",
+        "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      ],
+      "samples": [
+        "https://nhathuoclongchau.com.vn/thuoc/aquadetrim-medana-10ml-4696.html",
+        "https://www.pharmacity.vn/bo-sung-vitamin-d3-ddrop-baby-ho-tro-hap-thu-calci-cho-tre-so-sinh-chai-25ml.html",
+        "https://www.pharmacity.vn/siro-bo-sung-vitamin-d-cho-tre-pediakid-vitamin-d3-chai-20ml.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-057",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Uống vitamin A liều cao (12–60 tháng)",
+      "nameEn": "Vitamin A high dose – national campaign",
+      "ageFromMonths": 12,
+      "ageToMonths": 36,
+      "ageLabelVi": "12–<60 tháng (mỗi đợt chiến dịch)",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị (chiến dịch quốc gia, miễn phí)",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 6
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "200.000 IU mỗi đợt, 2 đợt mỗi năm (cách nhau ~4–6 tháng), tại trạm y tế xã. Tiếp tục đến 60 tháng.",
+      "benefitsVi": "Xem mục vitamin A 6–11 tháng.",
+      "riskOveruseVi": "Xem mục vitamin A 6–11 tháng. Không uống thêm viên thứ hai trong cùng một đợt.",
+      "riskMissedVi": "Xem mục vitamin A 6–11 tháng.",
+      "citations": [
+        "https://www.vietnamplus.vn/trien-khai-chien-dich-bo-sung-vitamin-a-tren-toan-quoc-bat-dau-tu-thang-6-post1113176.vnp",
+        "https://www.who.int/publications/i/item/9789241501767",
+        "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-058",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 15 tháng",
+      "nameEn": "Developmental milestone check – 15 months",
+      "ageFromMonths": 15,
+      "ageToMonths": 15,
+      "ageLabelVi": "15 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          15
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 15 tháng. Ví dụ: tự đi được vài bước; cố nói 1–2 từ ngoài \"mẹ/bố\". Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-059",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Bạch hầu – ho gà – uốn ván nhắc lại",
+      "nameEn": "DTP booster (diphtheria-tetanus-pertussis)",
+      "ageFromMonths": 18,
+      "ageToMonths": 18,
+      "ageLabelVi": "18 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          18
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp lúc 18 tháng.",
+      "benefitsVi": "Tăng cường bảo vệ chống bạch hầu, ho gà và uốn ván.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Miễn dịch giảm dần; tăng nguy cơ ho gà/bạch hầu.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-060",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Sởi – Rubella (MR)",
+      "nameEn": "Measles-rubella vaccine (MR)",
+      "ageFromMonths": 18,
+      "ageToMonths": 18,
+      "ageLabelVi": "18 tháng",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          18
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm dưới da lúc 18 tháng (mũi sởi thứ hai + rubella).",
+      "benefitsVi": "Mũi sởi thứ hai và bảo vệ chống rubella.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Bảo vệ chống sởi không đầy đủ; nguy cơ mắc rubella.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-priorix/",
+        "https://vnvc.vn/vac-xin-mmr/",
+        "https://vnvc.vn/lich-tiem-soi-quai-bi-rubella/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-061",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 18 tháng",
+      "nameEn": "Developmental milestone check – 18 months",
+      "ageFromMonths": 18,
+      "ageToMonths": 18,
+      "ageLabelVi": "18 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          18
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 18 tháng. Ví dụ: tự đi không cần vịn; nói được 3+ từ; làm theo yêu cầu một bước. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-062",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Viêm não Nhật Bản mũi 3",
+      "nameEn": "Japanese encephalitis vaccine (JE) – dose 3",
+      "ageFromMonths": 24,
+      "ageToMonths": 24,
+      "ageLabelVi": "24 tháng (1 năm sau liều 2)",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc (tiêm chủng mở rộng, miễn phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          24
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": "je",
+      "howVi": "Tiêm khoảng 1 năm sau liều 2.",
+      "benefitsVi": "Mũi nhắc để bảo vệ lâu dài.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Miễn dịch có thể không bền.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-063",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 24 tháng",
+      "nameEn": "Developmental milestone check – 24 months",
+      "ageFromMonths": 24,
+      "ageToMonths": 24,
+      "ageLabelVi": "24 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          24
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 24 tháng. Ví dụ: đá bóng; nói câu 2 từ; chỉ vào hình trong sách. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-064",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Thương hàn",
+      "nameEn": "Typhoid vaccine (Typhim Vi)",
+      "ageFromMonths": 24,
+      "ageToMonths": 36,
+      "ageLabelVi": "Từ 24 tháng, mỗi 3 năm",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          24
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm bắp. 1 liều từ 2 tuổi; tiêm lại mỗi 3 năm nếu vẫn còn nguy cơ.",
+      "benefitsVi": "Phòng bệnh thương hàn.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Nguy cơ thương hàn khi thức ăn/nước uống không an toàn.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-065",
+      "type": "Drug",
+      "typeVi": "Thuốc",
+      "nameVi": "Tẩy giun từ 24 tháng",
+      "nameEn": "Deworming (24 months +)",
+      "ageFromMonths": 24,
+      "ageToMonths": 36,
+      "ageLabelVi": "Từ 24 tháng trở lên",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 6
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Một liều duy nhất: albendazole 400 mg HOẶC mebendazole 500 mg, 1–2 lần/năm tùy tỷ lệ nhiễm tại địa phương (thực hành tại Việt Nam thường là 6 tháng một lần).",
+      "benefitsVi": "Xem mục tẩy giun 12–23 tháng.",
+      "riskOveruseVi": "Xem mục tẩy giun 12–23 tháng.",
+      "riskMissedVi": "Xem mục tẩy giun 12–23 tháng.",
+      "citations": [
+        "https://tuoitre.vn/nld/suc-khoe/nhung-dieu-can-biet-khi-tay-giun-duong-ruot-cho-tre-20230314153612473.htm",
+        "https://vihema.com/can-luu-y-gi-khi-tay-giun-cho-tre-de-dam-bao-an-toan.html",
+        "https://www.who.int/publications/i/item/9789241550116"
+      ],
+      "samples": [
+        "https://nhathuoclongchau.com.vn/thuoc/zentel-200mg-1686.html",
+        "https://nhathuoclongchau.com.vn/thuoc/albendazol-400mg-4825.html",
+        "https://nhathuoclongchau.com.vn/thuoc/fugacar-500mg-3693.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-066",
+      "type": "Check-up",
+      "typeVi": "Khám định kỳ",
+      "nameVi": "Theo dõi cân nặng, chiều cao",
+      "nameEn": "Growth monitoring (weight, height)",
+      "ageFromMonths": 24,
+      "ageToMonths": 36,
+      "ageLabelVi": "24–36 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 3
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Đo và chấm lên biểu đồ tăng trưởng của WHO khoảng 3 tháng một lần (thực hành tại Việt Nam).",
+      "benefitsVi": "Xem mục theo dõi cân nặng, chiều dài 0–23 tháng.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Xem mục theo dõi cân nặng, chiều dài 0–23 tháng.",
+      "citations": [
+        "https://www.who.int/tools/child-growth-standards",
+        "https://cdcnghean.vn/chuyen-mon/dinh-duong/theo-doi-tang-truong-va-su-dung-bieu-do-tang-truong-452.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-067",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 30 tháng",
+      "nameEn": "Developmental milestone check – 30 months",
+      "ageFromMonths": 30,
+      "ageToMonths": 30,
+      "ageLabelVi": "30 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          30
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 30 tháng. Ví dụ: nói được khoảng 50 từ; nhảy bằng hai chân. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-068",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 36 tháng",
+      "nameEn": "Developmental milestone check – 36 months",
+      "ageFromMonths": 36,
+      "ageToMonths": 36,
+      "ageLabelVi": "36 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          36
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 36 tháng. Ví dụ: trò chuyện qua lại bằng câu ngắn; vẽ được hình tròn khi được làm mẫu. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/index.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-070",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Uống vitamin A liều cao (đến 60 tháng)",
+      "nameEn": "Vitamin A high dose – national campaign (continued)",
+      "ageFromMonths": 36,
+      "ageToMonths": 59,
+      "ageLabelVi": "Đến 60 tháng, mỗi đợt chiến dịch",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị (chiến dịch quốc gia, miễn phí)",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 6
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "200.000 IU mỗi đợt, 2 đợt mỗi năm, tại trạm y tế xã. Đợt cuối cùng được uống là trước 60 tháng.",
+      "benefitsVi": "Giảm mức độ nặng của sởi và tiêu chảy; phòng quáng gà.",
+      "riskOveruseVi": "Không tự cho uống thêm viên liều cao tại nhà; quá liều cấp gây đau đầu, nôn, tăng áp lực nội sọ.",
+      "riskMissedVi": "Thiếu vitamin A: quáng gà, khô mắt, nhiễm trùng nặng hơn.",
+      "citations": [
+        "https://www.vietnamplus.vn/trien-khai-chien-dich-bo-sung-vitamin-a-tren-toan-quoc-bat-dau-tu-thang-6-post1113176.vnp",
+        "https://www.who.int/publications/i/item/9789241501767",
+        "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-071",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Vận động 3–4 tuổi",
+      "nameEn": "Physical activity (3–4 years)",
+      "ageFromMonths": 36,
+      "ageToMonths": 59,
+      "ageLabelVi": "≥180 phút/ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Ít nhất 180 phút vận động đa dạng mỗi ngày, trong đó ít nhất 60 phút ở mức vừa đến mạnh; tránh ngồi yên quá 1 giờ liên tục.",
+      "benefitsVi": "Kỹ năng vận động, cân nặng hợp lý, xương và tim khỏe mạnh.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Thói quen ít vận động, thừa cân.",
+      "citations": [
+        "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "https://www.who.int/publications/i/item/9789241550536"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-072",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Cúm – nhắc hằng năm",
+      "nameEn": "Influenza vaccine – yearly",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Mỗi năm",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 12
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "1 liều tiêm bắp mỗi năm, tốt nhất là trước mùa cúm. (Trẻ dưới 9 tuổi tiêm cúm lần đầu cần 2 liều cách nhau 1 tháng.)",
+      "benefitsVi": "Giảm nguy cơ cúm nặng, nghỉ học và lây cúm cho gia đình.",
+      "riskOveruseVi": "Chỉ 1 liều mỗi năm sau mùa đầu tiên.",
+      "riskMissedVi": "Tăng nguy cơ cúm và biến chứng (viêm phổi, viêm tai).",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://vnvc.vn/lich-tiem-vac-xin-cum-cho-tre-em/",
+        "https://vnvc.vn/vac-xin-cum/"
+      ],
+      "samples": [
+        "https://vnvc.vn/lich-tiem-vac-xin-cum-cho-tre-em/",
+        "https://vnvc.vn/vac-xin-cum/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-073",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Thương hàn",
+      "nameEn": "Typhoid vaccine (Typhim Vi / Typhoid Vi)",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Từ 2 tuổi, mỗi 3 năm",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          60
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "1 liều tiêm bắp; tiêm lại mỗi 3 năm nếu vẫn còn nguy cơ. Liều đầu thường từ 24 tháng (xem mục thương hàn từ 24 tháng).",
+      "benefitsVi": "Phòng bệnh thương hàn do thức ăn và nước uống không an toàn.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Nguy cơ mắc thương hàn.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://vnvc.vn/vac-xin-phong-thuong-han-cho-tre/",
+        "https://vnvc.vn/typhoid-vi-polysaccharide-vi-vac-xin-phong-benh-thuong-han/"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-phong-thuong-han-cho-tre/",
+        "https://vnvc.vn/typhoid-vi-polysaccharide-vi-vac-xin-phong-benh-thuong-han/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-074",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Rà soát mũi tiêm còn thiếu",
+      "nameEn": "Catch-up check for missed vaccines",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Trước khi vào lớp 1 (5–6 tuổi)",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          60
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Xem lại sổ tiêm chủng; tiêm bù các liều còn thiếu (viêm gan B, bạch hầu – ho gà – uốn ván, bại liệt, sởi – rubella, viêm não Nhật Bản, thủy đậu, viêm gan A) theo quy tắc tiêm bù – không tiêm lại từ đầu.",
+      "benefitsVi": "Đảm bảo trẻ được bảo vệ đầy đủ trước khi vào tiểu học.",
+      "riskOveruseVi": "Tránh tiêm lặp lại các liều đã tiêm – hãy giữ sổ tiêm chủng.",
+      "riskMissedVi": "Còn lỗ hổng miễn dịch khi vào tuổi đi học.",
+      "citations": [
+        "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers",
+        "https://vnvc.vn/lich-tiem-chung-mo-rong-quoc-gia-cho-tre-em/"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-075",
+      "type": "Vitamin",
+      "typeVi": "Vitamin",
+      "nameVi": "Vitamin D trẻ 3–6 tuổi",
+      "nameEn": "Vitamin D (food + supplement if needed)",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "3–6 tuổi",
+      "requirement": "conditional",
+      "requirementVi": "Tùy trường hợp – hỏi bác sĩ",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tổng cộng 600 IU (15 mcg) mỗi ngày từ thức ăn, ánh nắng và thực phẩm bổ sung. Lượng giọt/siro theo hướng dẫn trên nhãn sản phẩm.",
+      "benefitsVi": "Tốt cho xương và răng.",
+      "riskOveruseVi": "Giới hạn tối đa 2.500 IU/ngày (1–3 tuổi) và 3.000 IU/ngày (4–8 tuổi). Dùng quá nhiều gây tăng canxi máu, nôn, tổn thương thận.",
+      "riskMissedVi": "Thiếu vitamin D, xương yếu.",
+      "citations": [
+        "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/Vitamin-Iron-Supplements.aspx",
+        "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      ],
+      "samples": [
+        "https://www.pharmacity.vn/siro-bo-sung-vitamin-d-cho-tre-pediakid-vitamin-d3-chai-20ml.html",
+        "https://nhathuoclongchau.com.vn/thuoc/aquadetrim-medana-10ml-4696.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-076",
+      "type": "Drug",
+      "typeVi": "Thuốc",
+      "nameVi": "Tẩy giun định kỳ",
+      "nameEn": "Deworming",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "1–2 lần mỗi năm",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 6
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Một liều duy nhất: albendazole 400 mg HOẶC mebendazole 500 mg, 1–2 lần/năm tùy tỷ lệ nhiễm giun tại địa phương (thực hành tại Việt Nam thường là 6 tháng một lần). Nhai hoặc nghiền viên thuốc. Không cho uống khi trẻ sốt hoặc đang ốm cấp.",
+      "benefitsVi": "Giảm lượng giun, vốn gây thiếu máu, suy dinh dưỡng và chậm lớn.",
+      "riskOveruseVi": "Uống thường xuyên hơn khuyến nghị không có thêm lợi ích. Tác dụng phụ: đau bụng, buồn nôn, tiêu chảy; hiếm khi dị ứng.",
+      "riskMissedVi": "Nếu bị nhiễm: thiếu máu, suy dinh dưỡng, chậm lớn và học kém.",
+      "citations": [
+        "https://tuoitre.vn/nld/suc-khoe/nhung-dieu-can-biet-khi-tay-giun-duong-ruot-cho-tre-20230314153612473.htm",
+        "https://vihema.com/can-luu-y-gi-khi-tay-giun-cho-tre-de-dam-bao-an-toan.html",
+        "https://www.who.int/publications/i/item/9789241550116"
+      ],
+      "samples": [
+        "https://nhathuoclongchau.com.vn/thuoc/zentel-200mg-1686.html",
+        "https://nhathuoclongchau.com.vn/thuoc/albendazol-400mg-4825.html",
+        "https://nhathuoclongchau.com.vn/thuoc/fugacar-500mg-3693.html"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-077",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Tháp dinh dưỡng trẻ 3–5 tuổi",
+      "nameEn": "Balanced diet – nutrition pyramid 3–5 years",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "3–6 tuổi",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Theo tháp dinh dưỡng của Viện Dinh dưỡng Quốc gia cho trẻ 3–5 tuổi (~1.300 kcal/ngày): nước, rau và trái cây, ngũ cốc, chất đạm (thịt, cá, trứng, đậu), sữa và chế phẩm từ sữa, một ít dầu mỡ; hạn chế muối và đường. 3 bữa chính + 1–2 bữa phụ.",
+      "benefitsVi": "Hỗ trợ tăng trưởng, miễn dịch và học tập.",
+      "riskOveruseVi": "Uống quá nhiều sữa, ăn nhiều đồ ngọt hoặc ăn vặt làm trẻ ăn ít bữa chính; nguy cơ thừa cân.",
+      "riskMissedVi": "Thấp còi, nhẹ cân, thiếu vi chất.",
+      "citations": [
+        "https://www.vinmec.com/vie/bai-viet/tim-hieu-thap-dinh-duong-cho-tre-em-3-5-tuoi-vi",
+        "https://nhathuoclongchau.com.vn/bai-viet/nguyen-tac-ap-dung-thap-dinh-duong-cho-tre-3-5-tuoi.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-078",
+      "type": "Nutrition",
+      "typeVi": "Dinh dưỡng",
+      "nameVi": "Hạn chế đường và muối",
+      "nameEn": "Limit sugar and salt",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Hằng ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Đường tự do dưới 10% năng lượng hằng ngày (tốt nhất dưới 5%); tránh đồ uống có đường; ăn nhạt (trẻ cần ít muối hơn giới hạn 5 g/ngày của người lớn).",
+      "benefitsVi": "Phòng sâu răng, thừa cân và tăng huyết áp về sau.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Sâu răng, thừa cân, thói quen ăn uống không lành mạnh.",
+      "citations": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://www.who.int/publications/i/item/9789241549028"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-079",
+      "type": "Check-up",
+      "typeVi": "Khám định kỳ",
+      "nameVi": "Theo dõi cân nặng, chiều cao",
+      "nameEn": "Growth monitoring (weight, height, BMI)",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Mỗi 3–6 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 3
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Cân nặng, đo chiều cao và chấm lên biểu đồ tăng trưởng của WHO (thực hành tại Việt Nam: 3 tháng một lần đến 5 tuổi, sau đó ít nhất mỗi năm một lần).",
+      "benefitsVi": "Phát hiện sớm thấp còi, nhẹ cân và thừa cân.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Các vấn đề tăng trưởng bị phát hiện muộn.",
+      "citations": [
+        "https://www.who.int/tools/child-growth-standards",
+        "https://cdcnghean.vn/chuyen-mon/dinh-duong/theo-doi-tang-truong-va-su-dung-bieu-do-tang-truong-452.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-080",
+      "type": "Check-up",
+      "typeVi": "Khám định kỳ",
+      "nameVi": "Khám sức khỏe định kỳ hằng năm",
+      "nameEn": "Yearly well-child check-up",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Mỗi năm một lần (3, 4, 5, 6 tuổi)",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 12
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Khám sức khỏe hằng năm với bác sĩ nhi: tăng trưởng, phát triển, rà soát tiêm chủng, huyết áp (từ 3 tuổi), thính lực và thị lực.",
+      "benefitsVi": "Phát hiện sớm các vấn đề sức khỏe và phát triển.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Các vấn đề bị phát hiện muộn.",
+      "citations": [
+        "https://downloads.aap.org/AAP/PDF/periodicity_schedule.pdf",
+        "https://www.healthychildren.org/English/family-life/health-management/Pages/Well-Child-Care-A-Check-Up-for-Success.aspx"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-081",
+      "type": "Screening",
+      "typeVi": "Sàng lọc",
+      "nameVi": "Tầm soát thị lực",
+      "nameEn": "Vision screening",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Mỗi năm, 3–5 tuổi",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 12
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Tầm soát bằng máy hoặc bảng thị lực (chữ/hình) từ 3 tuổi khi trẻ hợp tác được; mỗi năm đến 5–6 tuổi. Chuyển khám bác sĩ mắt nếu không đạt.",
+      "benefitsVi": "Phát hiện sớm nhược thị (mắt lười), lác và tật khúc xạ – điều trị tốt nhất khi còn nhỏ.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Nhược thị không được điều trị có thể gây giảm thị lực vĩnh viễn.",
+      "citations": [
+        "https://www.healthychildren.org/English/health-issues/conditions/eyes/Pages/Vision-Screenings.aspx",
+        "https://downloads.aap.org/AAP/PDF/periodicity_schedule.pdf"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-082",
+      "type": "Check-up",
+      "typeVi": "Khám định kỳ",
+      "nameVi": "Khám răng định kỳ + bôi vecni fluor",
+      "nameEn": "Dental check-up + fluoride varnish",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Mỗi 6 tháng",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "interval",
+        "everyMonths": 6
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Khám răng và bôi vecni fluor mỗi 6 tháng đến 5 tuổi (mỗi 3 tháng nếu nguy cơ sâu răng cao).",
+      "benefitsVi": "Phòng và điều trị sâu răng sớm.",
+      "riskOveruseVi": "Vecni do nhân viên chuyên môn bôi với lượng nhỏ; không dùng thêm sản phẩm fluor khác khi chưa được tư vấn.",
+      "riskMissedVi": "Sâu răng, đau, nhiễm trùng, mất răng sớm.",
+      "citations": [
+        "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/Brushing-Up-on-Oral-Health-Never-Too-Early-to-Start.aspx",
+        "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/FAQ-Fluoride-and-Children.aspx"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-083",
+      "type": "Hygiene",
+      "typeVi": "Vệ sinh",
+      "nameVi": "Đánh răng với kem fluor cỡ hạt đậu",
+      "nameEn": "Tooth brushing (pea-sized fluoride toothpaste)",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "2 lần mỗi ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "daily"
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Đánh răng 2 lần mỗi ngày (sau bữa sáng và trước khi ngủ) với lượng kem đánh răng có fluor bằng hạt đậu; dạy trẻ nhổ ra, không súc miệng lại bằng nước. Cha mẹ giúp hoặc giám sát.",
+      "benefitsVi": "Phòng sâu răng.",
+      "riskOveruseVi": "Thường xuyên nuốt nhiều kem đánh răng có thể gây đốm trắng trên răng (nhiễm fluor).",
+      "riskMissedVi": "Sâu răng.",
+      "citations": [
+        "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/Brushing-Up-on-Oral-Health-Never-Too-Early-to-Start.aspx",
+        "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/FAQ-Fluoride-and-Children.aspx"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-084",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Thời gian ngoài trời (bảo vệ mắt)",
+      "nameEn": "Outdoor time (eye health)",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "1–2 giờ mỗi ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Ít nhất 1–2 giờ ngoài trời mỗi ngày; hạn chế nhìn gần và thời gian xem màn hình.",
+      "benefitsVi": "Giảm nguy cơ bị cận thị.",
+      "riskOveruseVi": "Bảo vệ da khi nắng gắt.",
+      "riskMissedVi": "Tăng nguy cơ cận thị sớm.",
+      "citations": [
+        "https://www.aao.org/eye-health/news/prevent-childhood-myopia-sunshine-outdoors",
+        "https://www.aaojournal.org/article/S0161-6420(22)00483-3/fulltext"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-085",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Thời lượng ngủ",
+      "nameEn": "Sleep duration",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "3–5 tuổi: 10–13 giờ (kể cả ngủ trưa)",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "10–13 giờ ngủ ngon trong 24 giờ, có thể gồm cả giấc ngủ trưa; đi ngủ và thức dậy đúng giờ.",
+      "benefitsVi": "Tăng trưởng, học tập, hành vi.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Các vấn đề về hành vi, sự chú ý và cân nặng.",
+      "citations": [
+        "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "https://www.who.int/publications/i/item/9789241550536"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-086",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Thời gian xem màn hình",
+      "nameEn": "Screen time",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Tối đa 1 giờ/ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Không quá 1 giờ ngồi xem màn hình mỗi ngày (càng ít càng tốt); ưu tiên đọc sách và kể chuyện cùng người chăm sóc.",
+      "benefitsVi": "Bảo vệ giấc ngủ, mắt, ngôn ngữ và vận động.",
+      "riskOveruseVi": "Xem màn hình quá nhiều lấy mất thời gian chơi và ngủ.",
+      "riskMissedVi": "Không áp dụng.",
+      "citations": [
+        "https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+        "https://www.who.int/publications/i/item/9789241550536"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-087",
+      "type": "Safety",
+      "typeVi": "An toàn",
+      "nameVi": "Ghế an toàn cho trẻ trên ô tô",
+      "nameEn": "Car safety seat / booster seat",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Dưới 10 tuổi và cao dưới 1,35 m",
+      "requirement": "required",
+      "requirementVi": "Bắt buộc theo luật",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Trẻ dưới 10 tuổi và cao dưới 1,35 m không được ngồi cùng hàng ghế với người lái (trừ xe chỉ có một hàng ghế) và phải dùng thiết bị an toàn phù hợp: ghế trẻ em khoảng 2–6 tuổi, ghế nâng khoảng 6–10 tuổi.",
+      "benefitsVi": "Giảm đáng kể tử vong và chấn thương khi va chạm.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Nguy cơ chấn thương nặng khi va chạm; người lái bị phạt theo Nghị định 168/2024.",
+      "citations": [
+        "https://tuoitre.vn/tu-1-1-2026-can-luu-y-gi-khi-cho-tre-tren-oto-20251111075929887.htm",
+        "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/iThong/98548/tu-1-1-2026-buoc-phai-co-ghe-an-toan-cho-tre-duoi-10-tuoi-ngoi-o-to",
+        "https://bocongan.gov.vn/bai-viet/mot-so-diem-moi-cua-luat-trat-tu-an-toan-giao-thong-duong-bo-2024-d1-t1495"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-088",
+      "type": "Safety",
+      "typeVi": "An toàn",
+      "nameVi": "Mũ bảo hiểm khi đi xe máy",
+      "nameEn": "Motorbike helmet",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Khuyến nghị ngay từ bây giờ · bắt buộc theo luật từ 6 tuổi",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị (bắt buộc từ 6 tuổi)",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Đội mũ bảo hiểm trẻ em vừa vặn trong mọi chuyến đi xe máy. Bắt buộc theo luật với người ngồi sau từ 6 tuổi (người lái bị phạt).",
+      "benefitsVi": "Giảm nguy cơ chấn thương đầu và tử vong khi tai nạn xe máy.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Nguy cơ cao bị chấn thương đầu.",
+      "citations": [
+        "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tu-van-phap-luat/62353/do-tuoi-bat-buoc-phai-doi-mu-bao-hiem-khi-di-xe-may",
+        "https://tuoitre.vn/plo/nguoi-ngoi-phia-sau-xe-may-khong-doi-mu-bao-hiem-bi-xu-phat-bao-nhieu-theo-nghi-dinh-168-post831479.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-089",
+      "type": "Safety",
+      "typeVi": "An toàn",
+      "nameVi": "Phòng chống đuối nước",
+      "nameEn": "Water safety and drowning prevention",
+      "ageFromMonths": 36,
+      "ageToMonths": 72,
+      "ageLabelVi": "Luôn luôn · học bơi từ tuổi đi học",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Luôn giám sát sát sao khi ở gần nước; đậy kín bể, lu, chum chứa nước; rào ao/hồ bơi. Các chương trình bơi lội quốc gia dành cho trẻ 6–16 tuổi.",
+      "benefitsVi": "Đuối nước là một trong những nguyên nhân hàng đầu gây tử vong ở trẻ em Việt Nam (>1.500 trẻ trong năm 2025).",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Nguy cơ đuối nước.",
+      "citations": [
+        "https://www.who.int/vietnam/news/detail/25-07-2026-ministry-of-health--world-health-organization-and-campaign-for-tobacco-free-kids-urge-action-and-investment-to--turn-the-tide-on-drowning--in-viet-nam",
+        "https://reliefweb.int/report/viet-nam/viet-nam-children-learn-swim-and-survive"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-090",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 48 tháng",
+      "nameEn": "Developmental milestone check – 48 months",
+      "ageFromMonths": 48,
+      "ageToMonths": 48,
+      "ageLabelVi": "4 tuổi",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          48
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 4 tuổi. Ví dụ: nói câu 4+ từ; vẽ người có 3+ bộ phận cơ thể; bắt được quả bóng lớn hầu hết các lần; biết an ủi người khác. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm (trước tuổi đi học).",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/4-years.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-091",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Nhắc bạch hầu – ho gà – uốn ván – bại liệt (4 trong 1)",
+      "nameEn": "DTaP-IPV booster (Tetraxim / Adacel Polio / Boostrix Polio)",
+      "ageFromMonths": 48,
+      "ageToMonths": 72,
+      "ageLabelVi": "4–6 tuổi",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          48
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "1 liều tiêm bắp nhắc lại lúc 4–6 tuổi; các mũi nhắc sau khoảng mỗi 5 năm, rồi mỗi 10 năm (theo lịch VNVC).",
+      "benefitsVi": "Duy trì bảo vệ chống bạch hầu, ho gà, uốn ván và bại liệt trước tuổi đi học, khi miễn dịch trước đó giảm dần.",
+      "riskOveruseVi": "Không tiêm nhắc gần hơn khoảng cách tối thiểu của sản phẩm; tiêm quá nhiều liều có thành phần uốn ván có thể gây phản ứng tại chỗ mạnh hơn (sưng).",
+      "riskMissedVi": "Miễn dịch giảm dần; trẻ tuổi đi học có thể mắc và lây ho gà; nguy cơ uốn ván từ vết thương.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://vnvc.vn/vac-xin-bach-hau-ho-ga-uon-van/",
+        "https://vnvc.vn/vac-xin-4-trong-1/"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-bach-hau-ho-ga-uon-van/",
+        "https://vnvc.vn/vac-xin-4-trong-1/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-092",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Sởi – Quai bị – Rubella mũi 2",
+      "nameEn": "MMR – dose 2 (Priorix / MMR II / MMR)",
+      "ageFromMonths": 48,
+      "ageToMonths": 72,
+      "ageLabelVi": "4–6 tuổi",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          48
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "1 mũi tiêm lúc 4–6 tuổi (liều MMR thứ 2). Cách các vắc xin sống khác ≥1 tháng trừ khi tiêm cùng ngày.",
+      "benefitsVi": "Hoàn tất bảo vệ chống sởi, quai bị và rubella trước tuổi đi học.",
+      "riskOveruseVi": "Các liều bổ sung trong chiến dịch chống dịch sởi là an toàn và có chủ đích.",
+      "riskMissedVi": "Bảo vệ chống quai bị không đầy đủ; nguy cơ mắc sởi khi có dịch.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+        "https://vnvc.vn/lich-tiem-soi-quai-bi-rubella/",
+        "https://vnvc.vn/vac-xin-mmr/",
+        "https://vnvc.vn/vac-xin-priorix/"
+      ],
+      "samples": [
+        "https://vnvc.vn/lich-tiem-soi-quai-bi-rubella/",
+        "https://vnvc.vn/vac-xin-mmr/",
+        "https://vnvc.vn/vac-xin-priorix/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-093",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Sốt xuất huyết (Qdenga)",
+      "nameEn": "Dengue vaccine (Qdenga)",
+      "ageFromMonths": 48,
+      "ageToMonths": 72,
+      "ageLabelVi": "Từ 4 tuổi",
+      "requirement": "optional",
+      "requirementVi": "Tùy chọn (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          48,
+          51
+        ]
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Tiêm dưới da, 2 liều cách nhau 3 tháng, từ 4 tuổi. Không dùng cho trẻ suy giảm miễn dịch.",
+      "benefitsVi": "VNVC báo cáo hiệu quả bảo vệ >80% chống nhiễm sốt xuất huyết và >90% chống sốt xuất huyết nặng và nhập viện.",
+      "riskOveruseVi": "Không áp dụng (liệu trình 2 liều).",
+      "riskMissedVi": "Sốt xuất huyết phổ biến ở Việt Nam; sốt xuất huyết nặng có thể gây tử vong.",
+      "citations": [
+        "https://vnvc.vn/vac-xin-qdenga/",
+        "https://vnvc.vn/vac-xin-sot-xuat-huyet/"
+      ],
+      "samples": [
+        "https://vnvc.vn/vac-xin-qdenga/",
+        "https://vnvc.vn/vac-xin-sot-xuat-huyet/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-094",
+      "type": "Screening",
+      "typeVi": "Sàng lọc",
+      "nameVi": "Tầm soát thính lực",
+      "nameEn": "Hearing screening",
+      "ageFromMonths": 48,
+      "ageToMonths": 72,
+      "ageLabelVi": "4, 5, 6 tuổi",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          48,
+          60,
+          72
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Đo thính lực lúc 4, 5 và 6 tuổi (lịch khám định kỳ của AAP).",
+      "benefitsVi": "Phát hiện suy giảm thính lực ảnh hưởng đến lời nói và học tập.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Các vấn đề về lời nói và học tập do suy giảm thính lực không được phát hiện.",
+      "citations": [
+        "https://downloads.aap.org/AAP/PDF/periodicity_schedule.pdf"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-095",
+      "type": "Milestone",
+      "typeVi": "Mốc phát triển",
+      "nameVi": "Mốc phát triển 60 tháng",
+      "nameEn": "Developmental milestone check – 60 months",
+      "ageFromMonths": 60,
+      "ageToMonths": 60,
+      "ageLabelVi": "5 tuổi",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          60
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "Bảng kiểm cho cha mẹ lúc 5 tuổi. Ví dụ: kể chuyện có ít nhất 2 sự việc; đếm đến 10; nhảy lò cò một chân; tuân theo luật chơi và biết chờ đến lượt. Hãy hỏi bác sĩ nếu trẻ không đạt mốc hoặc mất kỹ năng đã có.",
+      "benefitsVi": "Phát hiện sớm chậm phát triển để hỗ trợ sớm (trước tuổi đi học).",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Chậm phát triển bị phát hiện muộn, khi can thiệp sớm kém hiệu quả hơn.",
+      "citations": [
+        "https://www.cdc.gov/act-early/milestones/5-years.html",
+        "https://www.cdc.gov/act-early/resources/milestones-checklist-by-age.html"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-096",
+      "type": "Vaccine",
+      "typeVi": "Vắc xin",
+      "nameVi": "Viêm não Nhật Bản nhắc lại",
+      "nameEn": "Japanese encephalitis booster (Jevax)",
+      "ageFromMonths": 60,
+      "ageToMonths": 72,
+      "ageLabelVi": "Lúc 5 tuổi, sau đó mỗi 3 năm",
+      "requirement": "recommended_paid",
+      "requirementVi": "Khuyến nghị (dịch vụ, có phí)",
+      "schedule": {
+        "kind": "doses",
+        "atMonths": [
+          60
+        ]
+      },
+      "defaultEnabled": true,
+      "condition": null,
+      "group": null,
+      "howVi": "1 mũi tiêm nhắc lúc 5 tuổi, sau đó mỗi 3 năm (lịch Jevax). Trẻ đã tiêm Imojev thì theo quy tắc nhắc lại của Imojev.",
+      "benefitsVi": "Duy trì bảo vệ chống viêm não Nhật Bản, bệnh phổ biến ở Việt Nam.",
+      "riskOveruseVi": "Không dùng xen kẽ mũi nhắc Jevax với lịch Imojev khi chưa hỏi bác sĩ.",
+      "riskMissedVi": "Miễn dịch có thể giảm; viêm não Nhật Bản có thể gây tử vong hoặc tổn thương não lâu dài.",
+      "citations": [
+        "https://vnvc.vn/lich-tiem-chung-cho-tre-tu-0-den-5-tuoi/",
+        "https://vnvc.vn/lich-tiem-viem-nao-nhat-ban-tuan-thu-dung-hieu-qua-cao/",
+        "https://vnvc.vn/viem-nao-nhat-ban-tiem-may-mui/"
+      ],
+      "samples": [
+        "https://vnvc.vn/lich-tiem-viem-nao-nhat-ban-tuan-thu-dung-hieu-qua-cao/",
+        "https://vnvc.vn/viem-nao-nhat-ban-tiem-may-mui/"
+      ],
+      "reviewStatus": "pending",
+      "catchUp": null
+    },
+    {
+      "id": "VN-097",
+      "type": "Lifestyle",
+      "typeVi": "Lối sống",
+      "nameVi": "Vận động từ 5 tuổi",
+      "nameEn": "Physical activity (5 years +)",
+      "ageFromMonths": 60,
+      "ageToMonths": 72,
+      "ageLabelVi": "≥60 phút/ngày",
+      "requirement": "recommended",
+      "requirementVi": "Khuyến nghị",
+      "schedule": {
+        "kind": "info"
+      },
+      "defaultEnabled": false,
+      "condition": null,
+      "group": null,
+      "howVi": "Ít nhất 60 phút mỗi ngày vận động mức vừa đến mạnh, chủ yếu là vận động ưa khí (aerobic); các hoạt động tăng cường cơ và xương 3 ngày mỗi tuần.",
+      "benefitsVi": "Thể lực, cân nặng hợp lý, ngủ ngon và học tốt hơn.",
+      "riskOveruseVi": "Không áp dụng.",
+      "riskMissedVi": "Thói quen ít vận động, thừa cân.",
+      "citations": [
+        "https://www.who.int/publications/i/item/9789240015128"
+      ],
+      "samples": [],
+      "reviewStatus": "pending",
+      "catchUp": null
+    }
+  ]
+}
